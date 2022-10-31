@@ -1,0 +1,3 @@
+lxml
+suffix-tree==0.0.7
+zss
