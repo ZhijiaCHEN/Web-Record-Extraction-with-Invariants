@@ -1,5 +1,5 @@
 # Web-Record-Extraction-with-Invariants
-This repo hosts the code base for our paper "[Web-Record-Extraction-with-Invariants]()", which presents a method to extract complex **list-like** Web records that have significant structural variations due to heterogeneous schema or hierarchically nesting structures.
+This repo hosts the code base for our paper "Web-Record-Extraction-with-Invariants", which presents a method to extract complex **list-like** Web records that have significant structural variations due to heterogeneous schema or hierarchically nesting structures.
 
 ## Setup
 Create a Python virtual environment and install requirements.
