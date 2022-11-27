@@ -12,7 +12,7 @@ def get_args():
         type=str, 
         choices=[StructTree.STRUCT_PATTERN, StructTree.NODE_SIGNATURE_PATTERN, StructTree.HTP_PATTERN, StructTree.TAG_PATTERN],
         default=StructTree.STRUCT_PATTERN, 
-        help='output file'
+        help='The encoding scheme for nodes on the DOM tree, should be one of "tag" (encode by tag name), "signature" (encode by node signature), "htp" (encode by HTML Tag Path), and "structure" (encode by subtree structure). Defaults to "structure".'
     )
     parser.add_argument(
         '--len-thresh', 
